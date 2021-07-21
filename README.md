@@ -86,6 +86,6 @@ i: Every instruction can operate in indirect addressing mode, if A==0, replace *
 
 *<b>JMP  -></b>* Jump
 <ul style="margin-left:40px">
-        opcode = 7
+        opcode = 7 <br>
          PC = lower13bits(*A)
 </ul>
